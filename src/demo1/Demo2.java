@@ -3,9 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package demo1;
+package demo;
 
-import java.util.ArrayList;
 
 /**
  *
@@ -14,11 +13,12 @@ import java.util.ArrayList;
 public class Demo2 {
 
     public static void main(String[] args) {
-        int a, b, result1, result2;
+        int a;
+        int b;
+        int result1;
         a = 10;
         b = 32;
         result1 = a + b;
-        result2 = a - b;
         if (result1 > 20) {
             System.out.println(result1);
         } else {
